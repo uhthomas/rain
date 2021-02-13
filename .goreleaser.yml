@@ -7,7 +7,7 @@ builds:
   - env:
     - CGO_ENABLED=0
     ldflags:
-    - -s -w -X github.com/cenkalti/rain/torrent.Version={{.Version}}
+    - -s -w -X github.com/uhthomas/rain/torrent.Version={{.Version}}
     goos:
     - linux
     - darwin
@@ -37,7 +37,7 @@ brews:
       owner: cenkalti
       name: homebrew-rain
     folder: Formula
-    homepage:  https://github.com/cenkalti/rain
+    homepage:  https://github.com/uhthomas/rain
     description: BitTorrent client
     install: |
       bin.install "rain"

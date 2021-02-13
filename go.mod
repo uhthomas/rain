@@ -1,4 +1,4 @@
-module github.com/cenkalti/rain
+module github.com/uhthomas/rain
 
 go 1.13
 

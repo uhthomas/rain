@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/peerconn"
-	"github.com/cenkalti/rain/internal/peerprotocol"
-	"github.com/cenkalti/rain/internal/pexlist"
+	"github.com/uhthomas/rain/internal/peerconn"
+	"github.com/uhthomas/rain/internal/peerprotocol"
+	"github.com/uhthomas/rain/internal/pexlist"
 )
 
 type pex struct {

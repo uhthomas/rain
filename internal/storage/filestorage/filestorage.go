@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cenkalti/rain/internal/storage"
+	"github.com/uhthomas/rain/internal/storage"
 )
 
 // FileStorage implements Storage interface for saving files on disk.

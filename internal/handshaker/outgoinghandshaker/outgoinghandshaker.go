@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/btconn"
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/mse"
-	"github.com/cenkalti/rain/internal/peersource"
+	"github.com/uhthomas/rain/internal/btconn"
+	"github.com/uhthomas/rain/internal/logger"
+	"github.com/uhthomas/rain/internal/mse"
+	"github.com/uhthomas/rain/internal/peersource"
 )
 
 // OutgoingHandshaker does the BitTorrent handshake on an outgoing connection.

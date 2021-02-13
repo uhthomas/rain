@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/btconn"
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/mse"
+	"github.com/uhthomas/rain/internal/btconn"
+	"github.com/uhthomas/rain/internal/logger"
+	"github.com/uhthomas/rain/internal/mse"
 )
 
 // IncomingHandshaker does the BitTorrent protocol handshake on an incoming connection.

@@ -4,9 +4,9 @@ rain
 BitTorrent client and library in Go. Running in production at [put.io](https://put.io).
 
 [![Build Status](https://travis-ci.org/cenkalti/rain.svg?branch=master)](https://travis-ci.org/cenkalti/rain)
-[![GoDoc](https://godoc.org/github.com/cenkalti/rain?status.svg)](https://pkg.go.dev/github.com/cenkalti/rain/torrent?tab=doc)
-[![GitHub Release](https://img.shields.io/github/release/cenkalti/rain.svg)](https://github.com/cenkalti/rain/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cenkalti/rain)](https://goreportcard.com/report/github.com/cenkalti/rain)
+[![GoDoc](https://godoc.org/github.com/uhthomas/rain?status.svg)](https://pkg.go.dev/github.com/uhthomas/rain/torrent?tab=doc)
+[![GitHub Release](https://img.shields.io/github/release/cenkalti/rain.svg)](https://github.com/uhthomas/rain/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/uhthomas/rain)](https://goreportcard.com/report/github.com/uhthomas/rain)
 
 Features
 --------
@@ -37,7 +37,7 @@ If you are on MacOS you can install from [brew](https://brew.sh/):
 brew install cenkalti/rain/rain
 ```
 
-Otherwise, get the latest binary from [releases page](https://github.com/cenkalti/rain/releases).
+Otherwise, get the latest binary from [releases page](https://github.com/uhthomas/rain/releases).
 
 Usage as torrent client
 -----------------------
@@ -66,16 +66,16 @@ for range time.Tick(time.Second) {
 }
 ```
 
-More complete example can be found under `handleDownload` function at [main.go](https://github.com/cenkalti/rain/blob/master/main.go) file.
+More complete example can be found under `handleDownload` function at [main.go](https://github.com/uhthomas/rain/blob/master/main.go) file.
 
-See [package documentation](https://pkg.go.dev/github.com/cenkalti/rain/torrent?tab=doc) for complete API.
+See [package documentation](https://pkg.go.dev/github.com/uhthomas/rain/torrent?tab=doc) for complete API.
 
 Configuration
 -------------
 
 All values have sensible defaults, so you can run Rain with an empty config but if you want to customize it's behavior,
 you can pass a YAML config with `-config` flag. Config keys must be in lowercase.
-See the description of values in here: [config.go](https://github.com/cenkalti/rain/blob/master/torrent/config.go)
+See the description of values in here: [config.go](https://github.com/uhthomas/rain/blob/master/torrent/config.go)
 
 Difference from other clients
 -----------------------------

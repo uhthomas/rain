@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/tracker"
+	"github.com/uhthomas/rain/internal/logger"
+	"github.com/uhthomas/rain/internal/tracker"
 	"github.com/zeebo/bencode"
 )
 

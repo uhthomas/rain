@@ -12,8 +12,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/tracker"
+	"github.com/uhthomas/rain/internal/logger"
+	"github.com/uhthomas/rain/internal/tracker"
 )
 
 // UDPTracker is a torrent tracker that speaks UDP.

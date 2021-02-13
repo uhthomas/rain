@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/peerset"
-	"github.com/cenkalti/rain/internal/piece"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/uhthomas/rain/internal/peer"
+	"github.com/uhthomas/rain/internal/peerset"
+	"github.com/uhthomas/rain/internal/piece"
+	"github.com/uhthomas/rain/internal/webseedsource"
 	"github.com/rcrowley/go-metrics"
 )
 

@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/cenkalti/log"
-	"github.com/cenkalti/rain/internal/logger"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/uhthomas/rain/internal/logger"
+	"github.com/uhthomas/rain/internal/webseedsource"
 	"github.com/fortytw2/leaktest"
 )
 

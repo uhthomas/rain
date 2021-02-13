@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/cenkalti/rain/internal/peersource"
+	"github.com/uhthomas/rain/internal/peersource"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,9 +3,9 @@ package piecewriter
 import (
 	"crypto/sha1"
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/piece"
-	"github.com/cenkalti/rain/internal/semaphore"
+	"github.com/uhthomas/rain/internal/bufferpool"
+	"github.com/uhthomas/rain/internal/piece"
+	"github.com/uhthomas/rain/internal/semaphore"
 	"github.com/rcrowley/go-metrics"
 )
 
