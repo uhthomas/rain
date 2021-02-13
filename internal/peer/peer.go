@@ -5,6 +5,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/juju/ratelimit"
+	"github.com/rcrowley/go-metrics"
 	"github.com/uhthomas/rain/internal/bitfield"
 	"github.com/uhthomas/rain/internal/fast"
 	"github.com/uhthomas/rain/internal/logger"
@@ -18,8 +20,6 @@ import (
 	"github.com/uhthomas/rain/internal/piece"
 	"github.com/uhthomas/rain/internal/pieceset"
 	"github.com/uhthomas/rain/internal/stringutil"
-	"github.com/juju/ratelimit"
-	"github.com/rcrowley/go-metrics"
 )
 
 // Peer of a Torrent. Wraps a BitTorrent connection.

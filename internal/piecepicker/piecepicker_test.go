@@ -3,10 +3,10 @@ package piecepicker
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/uhthomas/rain/internal/bitfield"
 	"github.com/uhthomas/rain/internal/peer"
 	"github.com/uhthomas/rain/internal/piece"
-	"github.com/stretchr/testify/assert"
 )
 
 const (

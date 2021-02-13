@@ -3,6 +3,7 @@ package torrent
 import (
 	"net"
 
+	"github.com/rcrowley/go-metrics"
 	"github.com/uhthomas/rain/internal/acceptor"
 	"github.com/uhthomas/rain/internal/allocator"
 	"github.com/uhthomas/rain/internal/announcer"
@@ -13,7 +14,6 @@ import (
 	"github.com/uhthomas/rain/internal/urldownloader"
 	"github.com/uhthomas/rain/internal/verifier"
 	"github.com/uhthomas/rain/internal/webseedsource"
-	"github.com/rcrowley/go-metrics"
 )
 
 func (t *torrent) start() {

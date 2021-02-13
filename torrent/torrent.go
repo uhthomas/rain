@@ -8,6 +8,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/rcrowley/go-metrics"
 	"github.com/uhthomas/rain/internal/acceptor"
 	"github.com/uhthomas/rain/internal/addrlist"
 	"github.com/uhthomas/rain/internal/allocator"
@@ -35,7 +36,6 @@ import (
 	"github.com/uhthomas/rain/internal/unchoker"
 	"github.com/uhthomas/rain/internal/verifier"
 	"github.com/uhthomas/rain/internal/webseedsource"
-	"github.com/rcrowley/go-metrics"
 )
 
 // torrent connects to peers and downloads files from swarm.

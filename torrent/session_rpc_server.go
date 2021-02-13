@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/uhthomas/rain/internal/logger"
 	"github.com/powerman/rpc-codec/jsonrpc2"
+	"github.com/uhthomas/rain/internal/logger"
 )
 
 type rpcServer struct {

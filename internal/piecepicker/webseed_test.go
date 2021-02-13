@@ -3,8 +3,8 @@ package piecepicker
 import (
 	"testing"
 
-	"github.com/uhthomas/rain/internal/piece"
 	"github.com/stretchr/testify/assert"
+	"github.com/uhthomas/rain/internal/piece"
 )
 
 func TestPickLastPieceOfSmallestGap(t *testing.T) {

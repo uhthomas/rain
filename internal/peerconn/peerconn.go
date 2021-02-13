@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
+	"github.com/juju/ratelimit"
 	"github.com/uhthomas/rain/internal/logger"
 	"github.com/uhthomas/rain/internal/peerconn/peerreader"
 	"github.com/uhthomas/rain/internal/peerconn/peerwriter"
 	"github.com/uhthomas/rain/internal/peerprotocol"
-	"github.com/juju/ratelimit"
 )
 
 // Conn is a peer connection that provides a channel for receiving messages and methods for sending messages.

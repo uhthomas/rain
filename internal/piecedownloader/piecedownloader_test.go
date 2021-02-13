@@ -3,10 +3,10 @@ package piecedownloader
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/uhthomas/rain/internal/bufferpool"
 	"github.com/uhthomas/rain/internal/peerprotocol"
 	"github.com/uhthomas/rain/internal/piece"
-	"github.com/stretchr/testify/assert"
 )
 
 type Message = peerprotocol.RequestMessage

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/uhthomas/rain/internal/semaphore"
 	"github.com/rcrowley/go-metrics"
+	"github.com/uhthomas/rain/internal/semaphore"
 )
 
 // Cache is a LRU piece cache of certain size.

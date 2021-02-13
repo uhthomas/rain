@@ -3,10 +3,10 @@ package piecewriter
 import (
 	"crypto/sha1"
 
+	"github.com/rcrowley/go-metrics"
 	"github.com/uhthomas/rain/internal/bufferpool"
 	"github.com/uhthomas/rain/internal/piece"
 	"github.com/uhthomas/rain/internal/semaphore"
-	"github.com/rcrowley/go-metrics"
 )
 
 // PieceWriter writes the data in the buffer to disk.

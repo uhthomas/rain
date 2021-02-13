@@ -1,11 +1,11 @@
 package torrent
 
 import (
+	"github.com/rcrowley/go-metrics"
 	"github.com/uhthomas/rain/internal/announcer"
 	"github.com/uhthomas/rain/internal/handshaker/incominghandshaker"
 	"github.com/uhthomas/rain/internal/handshaker/outgoinghandshaker"
 	"github.com/uhthomas/rain/internal/tracker"
-	"github.com/rcrowley/go-metrics"
 )
 
 func (t *torrent) handleStopped() {

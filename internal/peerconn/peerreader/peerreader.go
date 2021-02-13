@@ -10,11 +10,11 @@ import (
 	"net"
 	"time"
 
+	"github.com/juju/ratelimit"
 	"github.com/uhthomas/rain/internal/bufferpool"
 	"github.com/uhthomas/rain/internal/logger"
 	"github.com/uhthomas/rain/internal/peerprotocol"
 	"github.com/uhthomas/rain/internal/piece"
-	"github.com/juju/ratelimit"
 )
 
 const (

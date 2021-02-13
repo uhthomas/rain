@@ -5,11 +5,11 @@ import (
 	"sort"
 	"time"
 
+	"github.com/google/btree"
 	"github.com/uhthomas/rain/internal/blocklist"
 	"github.com/uhthomas/rain/internal/externalip"
 	"github.com/uhthomas/rain/internal/peerpriority"
 	"github.com/uhthomas/rain/internal/peersource"
-	"github.com/google/btree"
 )
 
 // AddrList contains peer addresses that are ready to be connected.

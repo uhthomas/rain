@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/uhthomas/rain/internal/rpctypes"
 	"github.com/powerman/rpc-codec/jsonrpc2"
+	"github.com/uhthomas/rain/internal/rpctypes"
 )
 
 // Client is a JSON-RPC 2.0 client for calling methods of a remote Session.

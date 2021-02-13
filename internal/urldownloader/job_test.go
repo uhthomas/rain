@@ -3,9 +3,9 @@ package urldownloader
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
 	"github.com/uhthomas/rain/internal/filesection"
 	"github.com/uhthomas/rain/internal/piece"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestCreateJobs(t *testing.T) {

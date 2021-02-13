@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/uhthomas/rain/internal/tracker"
-	"github.com/uhthomas/rain/internal/tracker/udptracker"
 	"github.com/chihaya/chihaya/frontend/udp"
 	"github.com/chihaya/chihaya/middleware"
 	"github.com/chihaya/chihaya/storage"
 	_ "github.com/chihaya/chihaya/storage/memory"
+	"github.com/uhthomas/rain/internal/tracker"
+	"github.com/uhthomas/rain/internal/tracker/udptracker"
 )
 
 const timeout = 2 * time.Second

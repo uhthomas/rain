@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/rcrowley/go-metrics"
 	"github.com/uhthomas/rain/internal/peer"
 	"github.com/uhthomas/rain/internal/peerset"
 	"github.com/uhthomas/rain/internal/piece"
 	"github.com/uhthomas/rain/internal/webseedsource"
-	"github.com/rcrowley/go-metrics"
 )
 
 /*

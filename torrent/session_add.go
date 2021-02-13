@@ -11,14 +11,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gofrs/uuid"
+	"github.com/nictuku/dht"
 	"github.com/uhthomas/rain/internal/magnet"
 	"github.com/uhthomas/rain/internal/metainfo"
 	"github.com/uhthomas/rain/internal/resumer"
 	"github.com/uhthomas/rain/internal/resumer/boltdbresumer"
 	"github.com/uhthomas/rain/internal/storage/filestorage"
 	"github.com/uhthomas/rain/internal/webseedsource"
-	"github.com/gofrs/uuid"
-	"github.com/nictuku/dht"
 )
 
 // AddTorrentOptions contains options for adding a new torrent.

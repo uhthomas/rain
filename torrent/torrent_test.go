@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/cenkalti/log"
+	"github.com/fortytw2/leaktest"
 	"github.com/uhthomas/rain/internal/logger"
 	"github.com/uhthomas/rain/internal/webseedsource"
-	"github.com/fortytw2/leaktest"
 )
 
 var (

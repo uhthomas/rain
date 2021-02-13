@@ -3,8 +3,8 @@ package webseedsource
 import (
 	"time"
 
-	"github.com/uhthomas/rain/internal/urldownloader"
 	"github.com/rcrowley/go-metrics"
+	"github.com/uhthomas/rain/internal/urldownloader"
 )
 
 // WebseedSource is a URL for downloading torrent data from web sources.

@@ -13,6 +13,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/juju/ratelimit"
+	"github.com/mitchellh/go-homedir"
+	"github.com/nictuku/dht"
 	"github.com/uhthomas/rain/internal/bitfield"
 	"github.com/uhthomas/rain/internal/blocklist"
 	"github.com/uhthomas/rain/internal/logger"
@@ -23,9 +26,6 @@ import (
 	"github.com/uhthomas/rain/internal/semaphore"
 	"github.com/uhthomas/rain/internal/tracker"
 	"github.com/uhthomas/rain/internal/trackermanager"
-	"github.com/juju/ratelimit"
-	"github.com/mitchellh/go-homedir"
-	"github.com/nictuku/dht"
 	"go.etcd.io/bbolt"
 )
 

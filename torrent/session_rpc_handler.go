@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/powerman/rpc-codec/jsonrpc2"
 	"github.com/uhthomas/rain/internal/resumer/boltdbresumer"
 	"github.com/uhthomas/rain/internal/rpctypes"
-	"github.com/powerman/rpc-codec/jsonrpc2"
 )
 
 var errTorrentNotFound = jsonrpc2.NewError(1, "torrent not found")

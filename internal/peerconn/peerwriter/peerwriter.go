@@ -8,10 +8,10 @@ import (
 	"net"
 	"time"
 
+	"github.com/juju/ratelimit"
 	"github.com/uhthomas/rain/internal/logger"
 	"github.com/uhthomas/rain/internal/peerconn/peerreader"
 	"github.com/uhthomas/rain/internal/peerprotocol"
-	"github.com/juju/ratelimit"
 )
 
 const keepAlivePeriod = 2 * time.Minute

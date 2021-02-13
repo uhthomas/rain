@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/uhthomas/rain/internal/peersource"
 	"github.com/stretchr/testify/assert"
+	"github.com/uhthomas/rain/internal/peersource"
 )
 
 func TestAddrList(t *testing.T) {

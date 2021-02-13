@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jroimartin/gocui"
 	"github.com/uhthomas/rain/internal/jsonutil"
 	"github.com/uhthomas/rain/internal/rpctypes"
 	"github.com/uhthomas/rain/rainrpc"
-	"github.com/jroimartin/gocui"
 )
 
 const (
