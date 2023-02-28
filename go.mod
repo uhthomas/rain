@@ -40,7 +40,7 @@ require (
 	github.com/zeebo/bencode v1.0.0
 	go.etcd.io/bbolt v1.3.5
 	golang.org/x/crypto v0.0.0-20200414173820-0848c9571904 // indirect
-	golang.org/x/sys v0.0.0-20200413165638-669c56c373c4
+	golang.org/x/sys v0.1.0
 	gopkg.in/yaml.v2 v2.2.8
 )
 
